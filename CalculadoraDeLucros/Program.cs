@@ -7,9 +7,11 @@ namespace CalculadoraDeLucros
         static void Main(string[] args)
         {
             
-            Produtos p = new Produtos();
+            Produtos p = new ();
 
-            double venda = p.PedidoPedido();
+            double venda = p.Pedido();
+
+            Console.WriteLine(venda);
 
         }
     }
